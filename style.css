@@ -1,0 +1,31 @@
+body {
+  font-family: "Barlow", Helvetica;
+  background-color: #18181b;
+  color: #fafafa;
+}
+
+h1 {
+  font-family: "Montserrat", Helvetica;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fact-form {
+  background-color: #3f3f46;
+}
+
+.Fact {
+  background-color: #3f3f46;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.Tag {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
