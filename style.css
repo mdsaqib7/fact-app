@@ -1,29 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Barlow", Helvetica;
   background-color: #18181b;
   color: #fafafa;
+  padding: 40px;
+}
+
+.header_class {
+  margin-bottom: 40px;
 }
 
 h1 {
   font-family: "Montserrat", Helvetica;
   font-size: 42px;
   text-transform: uppercase;
+}
+
+.fact_form {
+  background-color: #3f3f46;
+  margin-bottom: 40px;
+  padding: 16px 40px;
   text-align: center;
 }
 
-.fact-form {
-  background-color: #3f3f46;
-}
-
-.Fact {
+.fact {
   background-color: #3f3f46;
   font-size: 20px;
   line-height: 1.4;
+  margin-bottom: 16px;
+  padding: 16px 24px;
 }
 
-.Tag {
+.tag {
   font-size: 14px;
   text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ul {

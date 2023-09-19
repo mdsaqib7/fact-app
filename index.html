@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>Learn Something New?</title>
   </head>
+
   <body>
-    <header>
+    <header class="header_class">
       <img src="logo.png" height="68" width="68" alt="Today I Learned Logo" />
       <h1>Learn Something New?</h1>
       <button>Share Something New?</button>
     </header>
-    <form class="fact-form">
+
+    <form class="fact_form">
       <input type="text" placeholder="Share a fact with the world!" />
       <span>200</span>
       <input type="text" placeholder="Trustworthy Source!" />
@@ -30,6 +32,7 @@
       </select>
       <button>Post</button>
     </form>
+
     <main>
       <aside>
         <ul>
@@ -44,13 +47,16 @@
           </li>
         </ul>
       </aside>
+
       <section>
         <ul>
-          <li>
-            <p class="Fact">
+          <li class="fact">
+            <p>
               React is being developed by Meta (formerly facebook)
               <a href="https://opensource.fb.com/" target="_blank">(Source)</a>
-              <span class="Tag">#technology#</span>
+              <span class="tag" style="background-color: #3b82f6"
+                >#technology#</span
+              >
             </p>
             <div>
               <button>👍 <strong>24</strong></button>
@@ -58,8 +64,8 @@
               <button>⛔️ <strong>4</strong></button>
             </div>
           </li>
-          <li>
-            <p class="Fact">
+          <li class="fact">
+            <p>
               Millennial dads spend 3 times as much time with their kids than
               their fathers spent with them. In 1982, 43% of fathers had never
               changed a diaper. Today, that number is down to 3%
@@ -68,7 +74,9 @@
                 target="_blank"
                 >(Source)</a
               >
-              <span class="Tag">#society#</span>
+              <span class="tag" style="background-color: #eab308"
+                >#society#</span
+              >
             </p>
             <div>
               <button>👍 <strong>12</strong></button>
